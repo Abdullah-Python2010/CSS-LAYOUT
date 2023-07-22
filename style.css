@@ -1,0 +1,288 @@
+*{
+    /* Creating Default styling */
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Work Sans, Arial, sans-serif;
+}
+
+#Navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2% 0;
+
+}
+
+.logo img{
+    width: 50%;
+}
+
+.nav-links ul li{
+    display: inline;
+}
+
+
+
+.nav-links ul li a{
+    font-weight: 700;
+    color: #333;
+    margin: 0 20px;
+}
+
+ #active{
+    color: #00b39b;
+}
+
+
+a:hover{
+    color: #00b39b;
+}
+#hero{
+    width: 100%;
+    margin-top: 40px;
+}
+
+#hero img{
+    display: block;
+    width: 5%;
+    margin: 0px auto;
+}
+
+#heading{
+    font-weight: 100;
+    color: #00b39b;
+    text-align: center;
+    letter-spacing: -0.45px;
+    font-size: 2rem;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px
+}
+
+.text p{
+    width: 30%;
+    line-height: 25px;
+    padding: 2% 1%;
+}
+
+#audience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 3%;
+    margin-top: 60px;
+}
+
+#audience div{
+    padding: 15px;
+    color: #fff;
+    border-radius: 12px;
+    height: 300px;
+
+}
+
+.A1{
+    background-color: #00b39b;
+    width: 17%;
+}
+
+#audience div h2{
+    font-size: 2rem;
+    font-weight:200;
+}
+
+#audience div img{
+    padding: 20px 0;
+    width: 20%
+}
+#audience div p{
+    line-height: 30px;
+}
+
+#audience div a{
+    color: #fff;
+    display: block;
+    margin: 20px;
+    padding: 10px;
+}
+
+#audience div a span{
+    transform: rotateX(90deg);
+}
+.A2{
+    background-color: #3d83df;
+    width: 18%;
+}
+
+.A3{
+    background-color: #1b2734;
+    width: 20%;
+}
+
+#sponsors{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+#sponsors #heading, .left2 #headign{
+    text-align: left;
+}
+
+.right1{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.right1 img{
+    width: 20%;
+}
+
+#porfolio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #d0faf4;
+    padding: 30px 0;
+    margin-top: 30px;
+}
+
+.subhead{
+    color: #333;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.right2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-flow: row wrap;
+    gap: 2rem;
+}
+
+.portfolio-item{
+    padding: 50px;
+    border-radius: 7px;
+    background-color: #fff;
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.portfolio-item img{
+    padding: 0 auto;
+}
+
+.porfolio #heading, .subhead{
+    padding: 20px;
+    margin: 12px;
+}
+#section4{
+    margin-top: 40px;
+}
+#section4 .subhead{
+    text-align: center;
+}
+
+button{
+    text-transform: uppercase;
+    padding: 12px 14px;
+    background-color: #3d83df;
+    border-radius: 8px;
+    display: inline;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.63rem;
+    margin: 4px auto;
+}
+
+.Countries{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.Country{
+    width: 25%;
+    border-radius: 12px;
+    padding: 13px;
+    transition: all .3s ease;
+}
+
+.Country img{
+    width: 100%;
+    border-radius: inherit;
+}
+
+.Country img:hover{box-shadow: inherit;}
+
+.Country:hover{
+    box-shadow: 3px 3px 5px #555;
+}
+
+.Country div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.Country p{
+    line-height: 32px;
+    margin: 7px;
+}
+
+#end{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    height: 3%;
+    margin-top: 60px;
+    gap: 2rem;
+
+}
+
+footer a{
+    color: blue;
+    cursor: pointer;
+}
+
+footer a:hover{
+    color: #00b39b;
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    font-size:.8rem;
+    line-height: 32px;
+    margin: 20px;
+}
