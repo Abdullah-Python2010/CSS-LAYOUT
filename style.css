@@ -286,3 +286,28 @@ footer p{
     line-height: 32px;
     margin: 20px;
 }
+
+#Select{
+    background-color: black;
+    color: white;
+    text-align: left;
+    transition: all .4s ease-in;
+    position: absolute;
+    top: 110%;
+    visibility: hidden;
+}
+
+#Select li a:hover{
+    color: #000;
+    background-color: white;
+}
+
+.Drop:hover #Select{
+    display: block !important;
+}
+
+
+
+a{
+    cursor: pointer;
+}
